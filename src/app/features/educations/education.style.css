@@ -117,10 +117,11 @@ ul li .date {
   place-content: center;
   position: relative;
 
-  border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+  /* border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2); */
+  border-radius: 10px;
 }
 
-/* date flap */
+/* date flap
 ul li .date::before {
   content: "";
   width: var(--inlineP);
@@ -132,7 +133,7 @@ ul li .date::before {
 
   clip-path: polygon(0 0, 100% 0, 0 100%);
   right: 0;
-}
+} */
 
 /* circle */
 ul li .date::after {
@@ -154,7 +155,7 @@ ul li .title,
 ul li .descr {
   background: var(--background-color);
   position: relative;
-  padding-inline: 1.5rem;
+  /* padding-inline: 1.5rem; */
 }
 ul li .title {
   overflow: hidden;
@@ -216,7 +217,7 @@ ul li .descr::before {
     transform: translate(-50%, -50%);
     left: calc(100% + var(--col-gap) + var(--line-w) / 2);
   }
-  ul li:nth-child(odd) .date {
+  /* ul li:nth-child(odd) .date {
     border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
-  }
+  } */
 }
