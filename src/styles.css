@@ -29,14 +29,22 @@
 }
 
 body {
-    --color: #EAEAEA;
-    --bgColor: #1C1C1E;
-    min-height: 100vh;
-    display: grid;
-    align-content: center;
-    gap: 2rem;
-    padding: 2rem;
     font-family: "Faculty Glyphic", sans-serif;
     color: var(--primary-color);
     background: var(--background-color);
+    align-content: center;
+    min-height: 100vh;
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.features-title {
+    position: relative;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--secondary-background-color);
+    padding: 1%;
+    margin: 1% 1% 5% 1%;
+    border-radius: 10px;
 }
