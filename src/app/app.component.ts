@@ -9,7 +9,7 @@ import { EducationComponent } from './features/educations/education.component';
   imports: [HomeComponent, EducationComponent],  // Import RouterOutlet and other components here
   template: `
   <home></home>
-  <education></education>
+  <app-education></app-education>
   `,
   styleUrls: ['./app.style.css'],
 })
