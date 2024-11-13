@@ -91,6 +91,11 @@ ul li .title::after {
   right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 
+ul li .title:hover::after,
+ul li:hover .title::after {
+  background-color: var(--secondary-background-color);
+}
+
 /* title descr */
 ul li .sub-title,
 ul li .description {
