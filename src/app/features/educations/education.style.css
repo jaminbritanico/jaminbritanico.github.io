@@ -1,8 +1,8 @@
-h1 {
+.education-page h1 {
   text-align: center;
 }
 
-ul {
+.education-page ul {
   --col-gap: 2rem;
   --row-gap: 2rem;
   --line-w: 0.25rem;
@@ -16,7 +16,7 @@ ul {
 }
 
 /* line */
-ul::before {
+.education-page ul::before {
   content: "";
   grid-column: 1;
   grid-row: 1 / span 20;
@@ -27,12 +27,12 @@ ul::before {
 /* columns*/
 
 /* row gaps */
-ul li:not(:last-child) {
+.education-page ul li:not(:last-child) {
   margin-bottom: var(--row-gap);
 }
 
 /* card */
-ul li {
+.education-page ul li {
   grid-column: 2;
   --inlineP: 1.5rem;
   margin-inline: var(--inlineP);
@@ -42,7 +42,7 @@ ul li {
 }
 
 /* date */
-ul li .title {
+.education-page ul li .title {
   --dateH: 3rem;
   height: var(--dateH);
   margin-inline: calc(var(--inlineP) * -1);
@@ -77,7 +77,7 @@ ul li .date::before {
 } */
 
 /* circle */
-ul li .title::after {
+.education-page ul li .title::after {
   content: "";
   position: absolute;
   width: 2rem;
@@ -91,30 +91,30 @@ ul li .title::after {
   right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 
-ul li .title:hover::after,
+/* ul li .title:hover::after,
 ul li:hover .title::after {
   background-color: var(--secondary-background-color);
-}
+} */
 
 /* title descr */
-ul li .sub-title,
-ul li .description {
+.education-page ul li .sub-title,
+.education-page ul li .description {
   background: var(--background-color);
   position: relative;
   /* padding-inline: 1.5rem; */
 }
-ul li .sub-title {
+.education-page ul li .sub-title {
   overflow: hidden;
   padding-block-start: 1.5rem;
   padding-block-end: 1rem;
 }
-.sub-title {
+.education-page .sub-title {
   font-weight: bold;
 }
-.sub-title span {
+.education-page .sub-title span {
   font-weight: normal;
 }
-ul li .description {
+.education-page ul li .description {
   padding-block-end: 1.5rem;
   font-weight: 300;
 }
@@ -141,30 +141,30 @@ ul li .descr::before {
 } */
 
 @media (min-width: 40rem) {
-  ul {
+  .education-page ul {
     grid-template-columns: 1fr var(--line-w) 1fr;
   }
-  ul::before {
+  .education-page ul::before {
     grid-column: 2;
   }
-  ul li:nth-child(odd) {
+  .education-page ul li:nth-child(odd) {
     grid-column: 1;
   }
-  ul li:nth-child(even) {
+  .education-page ul li:nth-child(even) {
     grid-column: 3;
   }
 
   /* start second card */
-  ul li:nth-child(2) {
+  .education-page ul li:nth-child(2) {
     grid-row: 2/4;
   }
 
-  ul li:nth-child(odd) .title::before {
+  .education-page ul li:nth-child(odd) .title::before {
     clip-path: polygon(0 0, 100% 0, 100% 100%);
     left: 0;
   }
 
-  ul li:nth-child(odd) .title::after {
+  .education-page ul li:nth-child(odd) .title::after {
     transform: translate(-50%, -50%);
     left: calc(100% + var(--col-gap) + var(--line-w) / 2);
   }
