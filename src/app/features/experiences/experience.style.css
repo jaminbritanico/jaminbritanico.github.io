@@ -75,13 +75,13 @@
 }
 
 .experience-page .member:hover {
-	transform: scale(1);
-	transition: var(--trans);
+	/* transform: scale(1);
+	transition: var(--trans); */
 }
 
 .experience-page .member:hover .thumb {
-	padding: 0.1em;
-	transition: var(--trans);
+	/* padding: 0.1em;
+	transition: var(--trans); */
 }
 
 .experience-page .member:hover .thumb img {
