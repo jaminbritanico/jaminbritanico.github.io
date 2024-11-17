@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: center;
 	margin: 0;
-	padding: 20px;
 	overflow-x: hidden;
 	display: flex;
 	justify-content: center;
@@ -47,8 +46,8 @@
 }
 
 .experience-page .thumb {
-	width: 13vmin;
-	height: 13vmin;
+	width: 8%;
+	height: auto;
 	float: left;
 	margin-right: 1.25em;
 	background: var(--background-color);
@@ -118,6 +117,26 @@
 	background: var(--background-color);
 }
 
+.experience-page h5 {
+	background: var(--background-color);
+	display: inline;
+	position: absolute;
+	margin: 0;
+	margin-top: -2.8em;
+	right: 9vmin;
+	padding: 0.5em 0.75em;
+	color: var(--primary-color);
+	border-radius: 10px;
+	border: 5px var(--secondary-background-color) solid;
+}
+
+.experience-page .member:nth-of-type(even) h5 {
+	right: inherit;
+	left: 9vmin;
+	transform-origin: left bottom;
+	background: var(--background-color);
+}
+
 .experience-page .member:hover h3 {
 	transition: var(--trans);
 	background: var(--background-color);
@@ -125,7 +144,6 @@
 
 .experience-page .co-funder:after {
 	content: "CO-FUNDER";
-	font-size: 0.75em;
 	position: absolute;
 	top: -1.5em;
 	background: var(--yellow);
@@ -134,7 +152,6 @@
 	padding: 0.35em 0.75em 0.5em;
 	border-radius: 0.25em;
 	color: var(--dark);
-	font-weight: bold;
 }
 
 .experience-page .co-funder:nth-of-type(even):after {
@@ -157,7 +174,6 @@
 	transition: var(--trans);
 	color: var(--dark);
 	background: var(--yellow);
-	font-weight: bold;
 }
 
 .experience-page .description p a img {
@@ -168,4 +184,25 @@
 	padding: 2px;
 	background: #fff;
 	margin-right: 2px;
+}
+
+@media (max-width: 768px) { /* For tablets and smaller devices */
+	.experience-page h3 {
+		font-size: .75rem;
+		margin-top: -2.7rem;
+		left: 4vh;
+	}
+	.experience-page .thumb {
+		width: 12%;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 480px) { /* For small mobile devices */
+	.experience-page .thumb {
+		width: 20%;
+		height: auto;
+		margin: 0 auto;
+	}
 }
