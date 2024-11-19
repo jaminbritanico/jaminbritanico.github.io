@@ -17,6 +17,10 @@
 	background: var(--background-color);
 }
 
+.experience-page ul {
+	width: 80%;
+}
+
 .experience-page .team {
 	color: var(--secondary-color);
     list-style-type: none;
@@ -24,45 +28,37 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 1em; /* adds space between team members */
 }
 
 .experience-page .member {
-	margin: 1.5em 0 0.5em;
+	margin: .25rem 0 1rem;
 	padding: 0.73em;
 	background: var(--secondary-background-color);
 	position: relative;
 	list-style: none;
 	display: inline-block;
-	transform: scale(0.85);
 	transition: var(--trans);
 	border-radius: 10px;
 }
 
-.experience-page .member:nth-of-type(even) {
+.experience-page .member:nth-of-type(even),
+.experience-page .member:nth-of-type(even) p {
 	text-align: right;
 	background: var(--secondary-background-color);
 	border-radius: 10px;
 }
 
 .experience-page .thumb {
-	width: 8%;
-	height: auto;
+	margin: .5rem;
+	width: 5rem;
+	height: 5rem;
 	float: left;
-	margin-right: 1.25em;
 	background: var(--background-color);
 	transition: var(--trans);
-	border-radius: 10px;
-	overflow: hidden;
-	margin-left: -3em;
-	padding: 0.5em;
-	border: 5px var(--secondary-background-color) solid;
 }
 
 .experience-page .member:nth-of-type(even) .thumb {
 	float: right;
-	margin-left: 2em;
-	margin-right: -3em;
 }
 
 .experience-page .thumb img {
@@ -93,21 +89,31 @@
 }
 
 .experience-page .description p {
-	padding: 0 2em;
+	text-align: justify;
+	padding: .5rem;
+	margin-bottom: 1em;
+}
+
+.experience-page .position {
+	font-weight: bold;
+	text-align: justify;
+	padding: .5rem;
 	margin-bottom: 1em;
 }
 
 .experience-page h3 {
+	font-size: 1.5rem;
 	background: var(--background-color);
-	display: inline;
-	position: absolute;
 	margin: 0;
-	margin-top: -2.8em;
-	left: 9vmin;
 	padding: 0.5em 0.75em;
 	color: var(--primary-color);
 	border-radius: 10px;
 	border: 5px var(--secondary-background-color) solid;
+	text-align: center;
+}
+.experience-page h3 span {
+	font-size: 1rem;
+	font-style: italic;
 }
 
 .experience-page .member:nth-of-type(even) h3 {
@@ -186,23 +192,30 @@
 	margin-right: 2px;
 }
 
-@media (max-width: 768px) { /* For tablets and smaller devices */
-	.experience-page h3 {
-		font-size: .75rem;
-		margin-top: -2.7rem;
-		left: 4vh;
+@media (max-width: 768px) {
+	.experience-page ul {
+		width: 100%;
 	}
-	.experience-page .thumb {
-		width: 12%;
-		height: auto;
-		margin: 0 auto;
+	.experience-page h3 {
+		height: 6rem;
+		font-size: 1rem;
+	}
+	.experience-page h3 span {
+		font-size: .75rem;
+	}
+
+
+	.experience-page .member:nth-of-type(even) .thumb {
+		float: left;
+	}
+	.experience-page .member:nth-of-type(even),
+	.experience-page .member:nth-of-type(even) p {
+		text-align: left;
 	}
 }
 
-@media (max-width: 480px) { /* For small mobile devices */
-	.experience-page .thumb {
-		width: 20%;
-		height: auto;
-		margin: 0 auto;
+@media (max-width: 480px) {
+	.experience-page ul {
+		width: 100%;
 	}
 }
