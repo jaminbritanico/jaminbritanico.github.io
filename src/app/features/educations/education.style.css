@@ -1,3 +1,8 @@
+.education-page {
+  display: flex;
+  justify-content: center;
+}
+
 .education-page h1 {
   text-align: center;
 }
@@ -11,8 +16,9 @@
   grid-auto-columns: max-content;
   column-gap: var(--col-gap);
   list-style: none;
-  width: min(60rem, 90%);
   margin-inline: auto;
+	margin: .25rem 0 .25rem 1rem;
+  width: 80%;
 }
 
 /* line */
@@ -172,6 +178,13 @@ ul li .descr::before {
     border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
   } */
 }
+@media (max-width: 768px) {
+  .education-page ul {
+    width: 100%;
+  }
+}
 
+@media (max-width: 480px) {
+}
 
   
