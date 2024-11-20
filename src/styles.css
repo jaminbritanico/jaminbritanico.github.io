@@ -5,7 +5,7 @@
     --secondary-background-color: #1C1C1E;
     --primary-color: #333333;
     --secondary-color: #DDDDDD;
-    --accent-color: #FF4C4C;
+    --accent-color: #F88379;
     --dividers: #DDDDDD;
     --hover: #F0F0F0;
   }
@@ -15,7 +15,7 @@
     --secondary-background-color: #F7F7F7 !important;
     --primary-color: #F7F7F7 !important;
     --secondary-color: #1C1C1E !important;
-    --accent-color: #FF4C4C !important;
+    --accent-color: #F88379 !important;
     --dividers: #A1A1A6 !important;
     --hover: #29292B !important;
 }
