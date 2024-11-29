@@ -1,21 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { LoadingComponent } from './components/loading/loading.component';
+import { NavBarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './features/home/home.component';
 import { ExperienceComponent } from './features/experiences/experience.component';
 import { EducationComponent } from './features/educations/education.component';
-import { LoadingComponent } from './components/loading/loading.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, LoadingComponent, HomeComponent, ExperienceComponent, EducationComponent],  // Import RouterOutlet and other components here
+  imports: [CommonModule, LoadingComponent, NavBarComponent, HomeComponent, ExperienceComponent, EducationComponent],  // Import RouterOutlet and other components here
   template: `
   <div *ngIf="isLoading; else mainContent">
     <app-loading></app-loading>
   </div>
   <ng-template #mainContent>
-    <home></home>
+    <app-navbar></app-navbar>
+    <app-home></app-home>
     <app-experience></app-experience>
     <app-education></app-education>
   </ng-template>
