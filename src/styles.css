@@ -53,4 +53,5 @@ body {
 section {
   scroll-margin-top: 6rem;
   margin-bottom: 6rem;
+  min-height: 35rem;
 }
