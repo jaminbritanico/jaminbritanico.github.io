@@ -4,13 +4,15 @@ import { RouterOutlet } from '@angular/router';
 import { LoadingComponent } from './components/loading/loading.component';
 import { NavBarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './features/home/home.component';
+import { SkillComponent } from './features/skills/skills.component';
 import { ExperienceComponent } from './features/experiences/experience.component';
 import { EducationComponent } from './features/educations/education.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, LoadingComponent, NavBarComponent, HomeComponent, ExperienceComponent, EducationComponent],  // Import RouterOutlet and other components here
+  imports: [CommonModule, LoadingComponent, NavBarComponent, 
+    HomeComponent, SkillComponent, ExperienceComponent, EducationComponent],
   template: `
   <div *ngIf="isLoading; else mainContent">
     <app-loading></app-loading>
@@ -18,6 +20,7 @@ import { EducationComponent } from './features/educations/education.component';
   <ng-template #mainContent>
     <app-navbar></app-navbar>
     <app-home></app-home>
+    <app-skill></app-skill>
     <app-experience></app-experience>
     <app-education></app-education>
   </ng-template>
