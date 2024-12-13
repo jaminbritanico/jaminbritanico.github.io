@@ -1,0 +1,61 @@
+.skill-page .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 1rem;
+  row-gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill-page .skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 10rem;
+  margin: 0 auto;
+  border: 2px var(--secondary-background-color) solid;
+  background-color: var(--secondary-background-color);
+  border-radius: 10px;
+}
+
+.skill-page .skill-card img {
+  width: 100%;
+  height: 8rem;
+  display: block;
+  object-fit: contain;
+  border-radius: 9px 9px 0 0;
+  padding: 1rem;
+  background-color: white;
+	filter: grayscale(1);
+}
+
+.skill-page .skill-card img:hover {
+	filter: none;
+	transition: all 0.4s ease 0s;
+}
+
+.skill-page .skill-text {
+  text-align: center;
+  padding: 0.5rem 0.25rem;
+}
+
+.skill-page .skill-text h2 {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--background-color);
+}
+
+.skill-page .skill-text h3 {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--secondary-color);
+}
+
+
+@media (max-width: 480px) {
+	.skill-page .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    width: 100%;
+  }
+}
