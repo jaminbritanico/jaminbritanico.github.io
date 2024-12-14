@@ -38,6 +38,31 @@ export class SkillComponent {
       name: "Angular",
       alt: "angular",
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBpy5FHXK_NNT2Pw9ELbrRajO5HDc-rNI3A&s',
+    },
+    {
+      name: "React JS",
+      alt: "reactjs",
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg1MndL-Xp1JcnqaB0YOqTp6zDjrwYyGKsPA&s',
+    },
+    {
+      name: "HTML",
+      alt: "html",
+      image: 'https://cdn.iconscout.com/icon/free/png-256/free-html-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-3-pack-logos-icons-3030115.png?f=webp',
+    },
+    {
+      name: "CSS",
+      alt: "css",
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDwBd9LoQzBAZigXXxzQ0kKn6TwyrE0Y7Rg&s',
+    },
+    {
+      name: "Javascript",
+      alt: "javascript",
+      image: 'https://thumbs.dreamstime.com/b/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.jpg',
+    },
+    {
+      name: "Bootstrap",
+      alt: "bootstrap",
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png',
     }
   ];
 
