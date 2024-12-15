@@ -63,6 +63,16 @@ export class SkillComponent {
       name: "Bootstrap",
       alt: "bootstrap",
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png',
+    },
+    {
+      name: "MsSQL",
+      alt: "mssql",
+      image: 'https://www.svgrepo.com/download/303229/microsoft-sql-server-logo.svg',
+    },
+    {
+      name: "MySQL",
+      alt: "mysql",
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZaw8EmkSlum0mRvWmmdQLUkXR9DlwutZ7_Q&s',
     }
   ];
 
