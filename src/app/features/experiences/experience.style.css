@@ -186,7 +186,7 @@
 .experience-page .description p span img {
 	float: left;
 	width: 22px;
-	filter: invert(1);
+	filter: grayscale(1);
 	border-radius: 0.15em;
 	padding: 2px;
 	background: #fff;
