@@ -9,12 +9,13 @@ import { SkillComponent } from './features/skills/skills.component';
 import { ExperienceComponent } from './features/experiences/experience.component';
 import { ProjectComponent } from './features/project/project.component';
 import { EducationComponent } from './features/educations/education.component';
+import { ContactComponent } from './features/contact/contact.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, LoadingComponent, NavBarComponent, 
-    HomeComponent, AboutComponent, SkillComponent, ExperienceComponent, ProjectComponent, EducationComponent],
+    HomeComponent, AboutComponent, SkillComponent, ExperienceComponent, ProjectComponent, EducationComponent, ContactComponent],
   template: `
   <div *ngIf="isLoading; else mainContent">
     <app-loading></app-loading>
@@ -27,6 +28,7 @@ import { EducationComponent } from './features/educations/education.component';
     <app-experience></app-experience>
     <app-project></app-project>
     <app-education></app-education>
+    <app-contact></app-contact>
   </ng-template>
   `,
   styleUrls: ['./app.style.css'],
