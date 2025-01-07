@@ -4,11 +4,6 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .contact-page body {
-    background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
-    font-size: 12px;
-  }
-  
   .contact-page body, .contact-page button, .contact-page input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -171,6 +166,7 @@
     font-size: 14px;
     cursor: pointer;
     outline: none;
+    margin: 0px 10px;
   }
   
   .contact-page .app-form-button:hover {
