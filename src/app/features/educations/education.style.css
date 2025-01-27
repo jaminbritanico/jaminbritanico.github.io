@@ -104,6 +104,7 @@ ul li:hover .title::after {
 
 /* title descr */
 .education-page ul li .sub-title,
+.education-page ul li .location
 .education-page ul li .description {
   background: var(--background-color);
   position: relative;
@@ -114,10 +115,16 @@ ul li:hover .title::after {
   padding-block-start: 1.5rem;
   padding-block-end: 1rem;
 }
-.education-page .sub-title {
+.education-page ul li .location {
+  overflow: hidden;
+  padding-block-end: 1rem;
+}
+.education-page .sub-title,
+.education-page .location {
   font-weight: bold;
 }
-.education-page .sub-title span {
+.education-page .sub-title span,
+.education-page .location span {
   font-weight: normal;
 }
 .education-page ul li .description {
