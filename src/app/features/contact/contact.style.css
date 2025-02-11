@@ -11,18 +11,17 @@
   
   .contact-page .background {
     display: flex;
-    min-height: 100vh;
   }
   
   .contact-page .container {
-    flex: 0 1 700px;
+    flex: 0 1 60%;
     margin: auto;
     padding: 10px;
   }
   
   .contact-page .screen {
     position: relative;
-    background: #3e3e3e;
+    background: var(--primary-color);
     border-radius: 15px;
   }
   
@@ -35,7 +34,6 @@
     right: 20px;
     bottom: 0;
     border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
     z-index: -1;
   }
   
@@ -43,7 +41,7 @@
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background: #4d4d4f;
+    background: var(--secondary-background-color);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
@@ -62,7 +60,7 @@
   }
   
   .contact-page .screen-header-button.close {
-    background: #ed1c6f;
+    background: var(--accent-color);
   }
   
   .contact-page .screen-header-button.maximize {
@@ -82,7 +80,7 @@
     height: 3px;
     margin-left: 2px;
     border-radius: 8px;
-    background: #999;
+    background: var(--secondary-color);
   }
   
   .contact-page .screen-body {
@@ -103,7 +101,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    color: var(--secondary-color);
+    color: var(--background-color);
     font-size: 26px;
   }
   
@@ -151,7 +149,7 @@
   }
   
   .contact-page .app-form-control::placeholder {
-    color: #666;
+    color: var(--secondary-color);
   }
   
   .contact-page .app-form-control:focus {
