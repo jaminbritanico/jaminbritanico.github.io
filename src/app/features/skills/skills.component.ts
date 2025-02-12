@@ -20,59 +20,69 @@ export class SkillComponent {
 
   skills: SkillsProp[] = [
     {
+      name: ".Net",
+      alt: ".net",
+      image: 'assets/images/skills/dotnet.png',
+    },
+    {
+      name: "Jira",
+      alt: "jira",
+      image: 'assets/images/skills/jira.png',
+    },
+    {
       name: "C Sharp (C#)",
       alt: "csharp",
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1820px-Logo_C_sharp.svg.png',
+      image: 'assets/images/skills/csharp.png',
     },
     {
       name: "Node.js",
       alt: "nodejs",
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4P-pt61PeTsAj_1b-Bb_MmFpUO22360XrQw&s',
+      image: 'assets/images/skills/nodejs.png',
     },
     {
       name: "Java",
       alt: "java",
-      image: 'https://static.vecteezy.com/system/resources/previews/048/332/150/non_2x/java-programming-language-java-logo-free-png.png',
+      image: 'assets/images/skills/java.webp',
     },
     {
       name: "Angular",
       alt: "angular",
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBpy5FHXK_NNT2Pw9ELbrRajO5HDc-rNI3A&s',
+      image: 'assets/images/skills/angular.jpg',
     },
     {
       name: "React JS",
       alt: "reactjs",
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg1MndL-Xp1JcnqaB0YOqTp6zDjrwYyGKsPA&s',
+      image: 'assets/images/skills/reactjs.png',
     },
     {
       name: "HTML",
       alt: "html",
-      image: 'https://cdn.iconscout.com/icon/free/png-256/free-html-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-3-pack-logos-icons-3030115.png?f=webp',
+      image: 'assets/images/skills/html.webp',
     },
     {
       name: "CSS",
       alt: "css",
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDwBd9LoQzBAZigXXxzQ0kKn6TwyrE0Y7Rg&s',
+      image: 'assets/images/skills/css.jpg',
     },
     {
       name: "Javascript",
       alt: "javascript",
-      image: 'https://thumbs.dreamstime.com/b/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.jpg',
+      image: 'assets/images/skills/javascript.webp',
     },
     {
       name: "Bootstrap",
       alt: "bootstrap",
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png',
+      image: 'assets/images/skills/bootstrap.png',
     },
     {
       name: "MsSQL",
       alt: "mssql",
-      image: 'https://www.svgrepo.com/download/303229/microsoft-sql-server-logo.svg',
+      image: 'assets/images/skills/mssql.svg',
     },
     {
       name: "MySQL",
       alt: "mysql",
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZaw8EmkSlum0mRvWmmdQLUkXR9DlwutZ7_Q&s',
+      image: 'assets/images/skills/mysql.png',
     }
   ];
 
