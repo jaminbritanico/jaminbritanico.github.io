@@ -12,9 +12,9 @@
   
 .dark-theme {
     --background-color: #1C1C1E !important;
-    --secondary-background-color: #F7F7F7 !important;
+    --secondary-background-color: #333333 !important;
     --primary-color: #F7F7F7 !important;
-    --secondary-color: #1C1C1E !important;
+    --secondary-color: #DDDDDD !important;
     --accent-color: #F88379 !important;
     --dividers: #A1A1A6 !important;
     --hover: #29292B !important;
