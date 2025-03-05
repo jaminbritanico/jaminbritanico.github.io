@@ -1,0 +1,5 @@
+.dev-mode {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    text-align: center;
+}
