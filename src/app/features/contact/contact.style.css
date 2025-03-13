@@ -196,6 +196,10 @@
   }
   
   @media screen and (max-width: 520px) {
+    .contact-page .container {
+      flex: 0 1 100%;
+      padding: 0;
+    }
     .contact-page .screen-body {
       flex-direction: column;
     }
@@ -203,25 +207,25 @@
     .contact-page .screen-body-item.left {
       margin-bottom: 30px;
     }
-  
     .contact-page .app-title {
       flex-direction: row;
     }
-  
     .contact-page .app-title span {
       margin-right: 12px;
     }
-  
     .contact-page .app-title:after {
       display: none;
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 605px) {
+    .contact-page .container {
+      flex: 0 1 100%;
+      padding: 0;
+    }
     .contact-page .screen-body {
       padding: 40px;
     }
-  
     .contact-page .screen-body-item {
       padding: 0;
     }
