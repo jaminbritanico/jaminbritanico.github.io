@@ -2,10 +2,30 @@
     <h1 class="features-title">Project</h1>
     <div class="project-page">
       
-        <article class="episode">
+      <article class="episode" *ngFor="let project of projects">
+        <div class="episode__number">{{project.code}}</div>
+        <div class="episode__content">
+          <div class="title">{{project.name}}</div>
+          <div class="story">
+            <p>{{project.description}}</p>
+          </div>
+        </div>
+      </article>
+
+        <!-- <article class="episode">
             <div class="episode__number">OPS</div>
             <div class="episode__content">
-              <div class="title">OPS - BillEase</div>
+              <div class="title">Online Pay System</div>
+              <div class="story">
+                <p>More details soon...</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="episode">
+            <div class="episode__number">FMS</div>
+            <div class="episode__content">
+              <div class="title">Fraud Management System</div>
               <div class="story">
                 <p>More details soon...</p>
               </div>
@@ -60,7 +80,7 @@
                 <p>More details soon...</p>
               </div>
             </div>
-          </article>
+          </article> -->
 
     </div>
 </section>
