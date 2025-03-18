@@ -37,8 +37,12 @@
   background-color: var(--nav-hover);
 }
 
-.logo, .option {
+.logo {
   padding: 0rem 1rem;
+}
+
+.option {
+  padding: .5rem 1rem;
 }
 
 .logo:hover, .option:hover {
