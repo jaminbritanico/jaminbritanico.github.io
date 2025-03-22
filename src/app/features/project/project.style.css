@@ -22,7 +22,7 @@
 
 .project-page .episode {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1.5fr 3fr;
   position: relative;
 }
 
@@ -32,7 +32,8 @@
   padding: 10px 0;
   position: sticky;
   top: 5rem;
-  text-align: center;
+  text-align: right;
+  padding-right: 2rem;
   height: calc(10vw + 20px);
   transition: all 0.2s ease-in;
 }
@@ -53,14 +54,20 @@
   line-height: 26px;
 }
 
-@media (max-width: 600px) {
-    .project-page .episode__content {
+@media (max-width: 605px) {
+  .project-page .episode__content {
     grid-template-columns: 1fr;
+  }
+  .project-page .episode__number {
+    padding-right: 1rem;
   }
 }
 
 @media (max-width: 576px) {
-    .project-page .episode__content .story {
+  .project-page .episode__content .story {
     font-size: 15px;
+  }
+  .project-page .episode__number {
+    padding-right: 1rem;
   }
 }
