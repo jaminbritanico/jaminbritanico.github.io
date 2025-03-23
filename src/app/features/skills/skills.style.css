@@ -43,7 +43,7 @@
 .skill-page .skill-text h2 {
   margin: 0;
   font-size: 0.75rem;
-  color: var(--background-color);
+  color: var(--secondary-color);
 }
 
 .skill-page .skill-text h3 {
@@ -53,7 +53,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 605px) {
 	.skill-page .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     width: 100%;
