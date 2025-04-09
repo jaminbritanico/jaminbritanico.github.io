@@ -74,3 +74,7 @@ section {
     animation-timeline: view();
     animation-range: entry 0% cover 15%;
 }
+
+.icon {
+    filter:brightness(0) saturate(100%) invert(84%) sepia(1%) saturate(1296%) hue-rotate(315deg) brightness(102%) contrast(137%);
+}
