@@ -63,6 +63,10 @@
   cursor: pointer;
 }
 
+.icon-theme {
+  width: 35px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     justify-content: space-between;
@@ -97,5 +101,11 @@
 
   .menu-toggle:checked + .menu-icon + .logo + .nav-links {
     display: flex;
+  }
+  .option {
+    padding: .5rem 0rem;
+  }
+  .icon-theme {
+    width: 30px;
   }
 }
