@@ -88,6 +88,8 @@
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
+    border: 1px solid var(--background-color);
+    border-top: none;
   }
   .nav-links li {
     padding: .75rem;
