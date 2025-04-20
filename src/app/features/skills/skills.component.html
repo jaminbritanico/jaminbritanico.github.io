@@ -3,7 +3,7 @@
     <div class="skill-page">
       <div class="skills-grid">
         
-        <div class="skill-card reveal" *ngFor="let skill of skills">
+        <div class="skill-card reveal" *ngFor="let skill of skills" (click)="openInNewTab(skill.link)">
           <img [src]="skill.image" [alt]="skill.alt" />
           <div class="skill-text">
             <h2>{{ skill.name }}</h2>
