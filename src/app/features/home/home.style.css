@@ -3,8 +3,33 @@
     font-size: 10rem;
 }
 
+.diamond {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  transform: rotate(45deg); /* Initial diamond shape */
+  animation: spin 5s linear infinite;
+  transform-origin: center center;
+  border-radius: 1px;
+  margin-left: 10px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(405deg); /* 360 + 45 for smooth continuous spin */
+  }
+}
+
 @media (max-width: 768px) {
     .home-page {
       font-size: 6rem;
+    }
+    .diamond {
+      width: 20px;
+      height: 20px;
     }
 }
