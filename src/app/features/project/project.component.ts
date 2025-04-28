@@ -53,5 +53,10 @@ export class ProjectComponent {
       name: "Insurance Claim Monitoring System",
       description: "More details soon..."
     },
+    {
+      code: "DICE",
+      name: "Digitize Interactive Content Enhancement E-Learning System",
+      description: "More details soon..."
+    },
   ];
 }
