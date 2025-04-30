@@ -35,15 +35,15 @@ export class EducationComponent {
       course: "PC Operation",
       year: "2014",
       address: "524-E Epifanio Delos Santos Avenue, Caloocan City",
-      description: "More details soon...",
+      description: "In 2014, I pursued a vocational course in PC Operation at TESDA to further develop my computer skills. Upon successful completion of the program, I received a certificate recognizing my proficiency in basic computer operations.",
     },
     {
       level: "Highschool",
       school: "Bagong Barrio National Highschool",
       course: "",
-      year: "2010 - 2014",
+      year: "2010 - 2016",
       address: "M. De Castro Street, Barangay 142, Tanque, Caloocan City",
-      description: "More details soon...",
+      description: "I started my high school education at Baesa High School, completing my 1st Year in 2011. After a break from school, I transferred to Bagong Barrio National High School in 2013, where I completed my 2nd Year. In 2014, I pursued technical training at TESDA, taking a course in PC Operation. The following year, in 2015, I enrolled in the Alternative Learning System (ALS) to continue my education. I successfully graduated and received my High School Diploma in 2016.",
     },
     {
       level: "Elementary School",
@@ -51,7 +51,7 @@ export class EducationComponent {
       course: "",
       year: "2004 - 2010",
       address: "229 Reparo Road, Caloocan City",
-      description: "More details soon...",
+      description: "Completed elementary education with steady academic progress and active participation in school activities.",
     },
     {
       level: "Kinder Garten",
@@ -59,7 +59,7 @@ export class EducationComponent {
       course: "",
       year: "2004",
       address: "Jasmin Street, Reparo Baesa Caloocan City",
-      description: "More details soon...",
+      description: "Began formal learning through Kinder A and Kinder B programs, developing core skills in preparation for elementary education.",
     },
   ];
 }
