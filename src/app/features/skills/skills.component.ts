@@ -56,6 +56,12 @@ export class SkillComponent {
       link: "https://www.java.com/en/",
     },
     {
+      name: "Blazor",
+      alt: "blazor",
+      image: 'assets/images/skills/blazor.png',
+      link: "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
+    },
+    {
       name: "Angular",
       alt: "angular",
       image: 'assets/images/skills/angular.jpg',
