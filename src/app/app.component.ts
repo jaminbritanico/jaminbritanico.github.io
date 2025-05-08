@@ -36,7 +36,7 @@ import { ContactComponent } from './features/contact/contact.component';
 export class AppComponent implements OnInit {
   title = 'jaminbritanico-portfolio';
 
-  isLoading = true;
+  isLoading = false;
 
   ngOnInit(): void {
     setTimeout(() => {
