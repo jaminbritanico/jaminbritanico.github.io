@@ -43,6 +43,7 @@
 
 .option {
   padding: .5rem 1rem;
+  cursor: pointer;
 }
 
 .logo:hover, .option:hover {
@@ -60,7 +61,6 @@
 .menu-icon {
   display: none;
   font-size: 2rem;
-  cursor: pointer;
 }
 
 .icon-theme {
