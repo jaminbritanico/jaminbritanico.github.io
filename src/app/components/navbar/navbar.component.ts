@@ -11,7 +11,7 @@ import { DevModeComponent } from '../../components/dev-mode/dev-mode.component';
   imports: [CommonModule, DevModeComponent]
 })
 export class NavBarComponent {
-  displayDevMode = false;
+  displayDevMode = true;
   iconPath = 'assets/svg/moon.svg';
   
   backToHome() {
