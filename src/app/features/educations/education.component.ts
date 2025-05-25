@@ -27,7 +27,7 @@ export class EducationComponent {
       course: "Bachelor Science in Information Technology",
       year: "2017 - 2021",
       address: "Biglang Awa Street Cor 11th Ave Catleya, East Grace Park, Caloocan City",
-      description: "More details soon...",
+      description: "My college journey is where I truly discovered my passion for programming. In my first year, I was introduced to C and C++, and from the moment I started writing code, I was hooked. The logic, structure, and problem-solving aspect of programming fascinated me. What started as a simple introduction to coding quickly grew into a deep interest that shaped my career goals. That experience marked the beginning of my journey into the world of software development.",
     },
     {
       level: "Vocational",
