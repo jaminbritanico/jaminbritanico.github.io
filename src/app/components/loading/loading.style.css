@@ -103,3 +103,8 @@
   }
 }
  
+@media (max-width: 428px) {
+  .content {
+    font-size: 2.25rem;
+  }
+}
