@@ -130,6 +130,7 @@ ul li:hover .title::after {
 .education-page ul li .description {
   padding-block-end: 1.5rem;
   font-weight: 300;
+	text-align: justify;
 }
 
 /* shadows */
